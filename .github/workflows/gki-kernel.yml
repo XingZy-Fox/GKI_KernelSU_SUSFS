@@ -612,7 +612,7 @@ jobs:
         run: |
           echo "Creating zip files for all formats..."
           cd ./AnyKernel3
-          cp /home/runner/work/GKI_KernelSU_SUSFS/GKI_KernelSU_SUSFS/${{ inputs.android_version }}-${{ inputs.kernel_version }}-${{ inputs.os_patch_level }}/123.zip ./
+          cp /home/runner/work/GKI_KernelSU_SUSFS/GKI_KernelSU_SUSFS/${{ inputs.android_version }}-${{ inputs.kernel_version }}-${{ inputs.sub_level }}/123.zip ./
           # Create and upload zip for each format
           ZIP_NAME="${{ inputs.android_version }}-${{ inputs.kernel_version }}.${{ inputs.sub_level }}-${{ inputs.os_patch_level }}-AnyKernel3.zip"
           echo "Creating zip file: $ZIP_NAME..."
