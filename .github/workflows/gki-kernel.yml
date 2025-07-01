@@ -712,5 +712,5 @@ jobs:
           path: |
             *AnyKernel3.zip
             *.img
-            $CONFIG/*.zip
+            *.zip
             
